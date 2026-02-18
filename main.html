@@ -6,8 +6,10 @@
 </head>
 <body>
 
-    <form method="post">
-        
+    <h1>Job Application Form</h1>
+
+    <form method="POST">
+
         <!-- Name -->
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>
@@ -20,22 +22,22 @@
 
         <!-- Gender -->
         <label>Gender *</label>
-        <input type="radio" id="male" name="gender" value="Male" required>
+        <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">Male</label>
 
-        <input type="radio" id="female" name="gender" value="Female" required>
+        <input type="radio" id="female" name="gender" value="female" required>
         <label for="female">Female</label>
 
-        <input type="radio" id="other" name="gender" value="Other" required>
+        <input type="radio" id="other" name="gender" value="other" required>
         <label for="other">Other</label>
         <br><br>
 
         <!-- Laptop Brands -->
-        <label for="laptop">Laptop Brands</label>
+        <label for="laptop">Preferred Laptop Brand</label>
         <select id="laptop" name="laptop">
-            <option value="Apple">Apple</option>
-            <option value="Asus">Asus</option>
-            <option value="HP">HP</option>
+            <option value="apple">Apple</option>
+            <option value="asus">Asus</option>
+            <option value="hp">HP</option>
         </select>
         <br><br>
 
